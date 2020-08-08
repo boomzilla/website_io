@@ -1,0 +1,87 @@
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font-family: Georgia, serif;
+	font-size: 100%;
+	width: 100%
+}
+
+h1 {
+	font-size: 2.5em;
+	padding-left: .1em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.8em;
+	padding-left: .2em;
+	font-weight: bold;
+}
+
+span {
+	padding-left: .4em;
+}
+
+li, ul.bar_delim li {
+	padding-top: .1em;
+	padding-bottom: .1em;
+}
+
+li {
+	padding-left: .6em;
+}
+
+h1, h2, span, ul, ul.bar_delim, section {
+	padding-top: .3em;
+}
+
+h2 {
+	padding-bottom: .1em;
+}
+
+span, li, ul.bar_delim li {
+	font-size: 1em;
+}
+
+ul {
+	padding-left: 1.5em;
+}
+
+ul.bar_delim {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+ul.bar_delim li{
+	display: inline;
+	padding-left: .7em;
+	text-indent: -.9em;
+}
+
+ul.bar_delim li::before{
+	content: " | ";
+}
+
+span {
+	padding-left: .3em;
+	font-weight: bold;
+}
